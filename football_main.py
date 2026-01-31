@@ -17,7 +17,7 @@ pass_accuracy=slt.slider('Passing Accuracy',0.0,100.0,50.0)
 fitness_score=slt.slider('Fitness Accuracy',0.0,100.0,30.0)
 opponent=slt.number_input('Opponent Strength')
 minutes_last_5=slt.slider('Minutes played in last 5 matches',10.0,500.0,10.0)
-player_position=slt.selectbox('Player Position',['Forward','Midfielder'])
+player_position=slt.selectbox('Player Position',['Forward','Midfielder','Defender','Goalkeeper'])
 home_away=slt.selectbox('Stadium',['Home','Away'])
 weather=slt.selectbox('Weather',['Rainy','Snowy','Sunny','Cloudy'])
 
